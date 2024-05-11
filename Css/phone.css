@@ -4,21 +4,26 @@
 
 
     /* right side buttons css */
-    .right-side a { 
-        font-size: 0.8rem; 
+    .right-side a {
+        font-size: 0.8rem;
         padding: 1rem 0 1rem 0;
         width: 10rem;
     }
+
+    .header-content .left-side {
+        padding: 10px 0px;
+    }
+     
+    
 
     .section-heading h2 {
         font-size: 2rem;
         margin-bottom: 1.4rem;
     }
- 
+
     .header-content .right-side img {
         object-fit: cover;
         max-width: 100%;
-        height: 450px;
     }
 
     .about-section .right-side p {
@@ -64,7 +69,7 @@
 @media only screen and (max-width:768px) {
 
     .about-section .right-side p {
-    text-align: justify;
+        text-align: justify;
     }
 
     .project-section .card-content h3 {

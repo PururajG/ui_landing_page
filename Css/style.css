@@ -72,28 +72,47 @@ body {
 }
 
 /*-------------------------- header conntet --------------------------*/
+.header-content .img2{
+    display: none;
+}
 .header-content .left-side {
-    padding: 165px 28px;
+    padding: 210px 28px;
 }
 
-.header-content .left-side h1 {
+.header-content .left-side h1,
+.header-mobile-content h1 {
     font-size: 3.2rem;
     letter-spacing: 2px;
     color: #BDBDBD;
     line-height: 1px;
     overflow-wrap: break-word;
-    font-family: 'Roboto';
     font-weight: 300;
 }
 
-.header-content .left-side .sub_title {
+.header-mobile-content h1 {
+    text-shadow: -4px -1px 0px #272727cf;
+    font-size: 3.7rem;
+    letter-spacing: 1px;
+}
+
+
+.header-content .left-side .sub_title,
+.header-mobile-content .sub_title {
     font-size: 3.5rem;
     color: #333333;
     display: inline-block;
     align-self: flex-start;
     overflow-wrap: break-word;
-    font-family: 'Roboto';
+
     font-weight: 700;
+}
+
+
+.header-mobile-content .sub_title {
+    text-shadow: -3px -1px 2px #3c3c3c6e;
+    font-size: 4rem;
+    margin-top: 15px;
+
 }
 
 .arrow-btn button:hover {
@@ -215,12 +234,12 @@ body {
 .mission-section .left-side:hover,
 .mission-section .right-side:hover {
     box-shadow: 0px 0rem 1rem 0px rgba(0, 0, 0, 0.06);
-    transition: all 0.2s;
+    transition: all 0.2;
     cursor: pointer;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    -ms-transition: all 0.2s;
-    -o-transition: all 0.2s;
+    -webkit-transition: all 0.2;
+    -moz-transition: all 0.2;
+    -ms-transition: all 0.2;
+    -o-transition: all 0.2;
 }
 
 
